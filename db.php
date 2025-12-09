@@ -2,9 +2,10 @@
 /**
  * Conexión a Postgres para el generador de PNG.
  * Ajustada para XAMPP + PHP crudo.
+ * Cambiar xxxx por los datos de conexión
  */
 
-$pg_host = "host=localhost";
+$pg_host = "host=xxxx";
 $pg_port = "port=5432";
 $pg_db   = "dbname=xxxx";
 $pg_user = "user=xxxx";
@@ -16,4 +17,5 @@ if (!$pg_conn) {
     die("Error: no se pudo conectar a la base de datos Postgres.");
 }
 ?>
+
 
